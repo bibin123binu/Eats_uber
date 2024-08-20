@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_one{
+background: url("c413f20400e04805.webp") no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 750px;
+}
+.btn{
+    border-radius: 20px;
+}
