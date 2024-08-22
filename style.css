@@ -10,7 +10,7 @@
 background: url("/images/c413f20400e04805.webp") no-repeat;
 background-size: cover;
 background-position: center;
-background-attachment: fixed;
+/* background-attachment: fixed; */
 height: 850px;
 }
 /* navnar design */
@@ -110,16 +110,18 @@ h1{
   
 }
 .parentInnerDiv{
-  display: flex;
-  justify-content: space-between;
-  display: grid;
-  grid-template-columns: 500px 500px 500px;
+   display: flex; 
+   justify-content: space-around; 
+  /* display: grid;  */
+  /* grid-template-columns: 600px 600px 600px;
   padding: 10px;
+  width: 600px; */
 }
 
 .innerDiv1,.innerDiv2,.innerDiv3{
   /* margin-left: 10px; */
+  /* width: 600px; */
   margin-top: 50px;
   height: 750px;
-  width: 100%;
+  
 }
