@@ -7,7 +7,7 @@
 
 /* first section */
 .section_one{
-background: url("c413f20400e04805.webp") no-repeat;
+background: url("/images/c413f20400e04805.webp") no-repeat;
 background-size: cover;
 background-position: center;
 /* background-attachment: fixed; */
@@ -104,30 +104,30 @@ h1{
   margin-top: 10px;
 } */
 
-.sectionTwo{
+/* .sectionTwo{
   margin: 0;
   display: grid;  
  grid-template-columns: 600px 600px 600px;
  height: 400px;
  padding: 70px;
-}
-.parentInnerDiv{
+} */
+/* .parentInnerDiv{
    display: flex; 
    justify-content: space-around; 
   
   padding: 10px;
   width: 750px; 
-}
-
+} */
+/* 
 .innerDiv1,.innerDiv2,.innerDiv3{
   /* margin-left: 10px; */
   /* width: 600px; */
-  margin-top: 50px;
+  /* margin-top: 50px;
   height: 750px;
   width: 800px;
-  padding: 30px;
+  padding: 20px;
   
-}
+} */ */
 
 
 /* map */
@@ -138,20 +138,27 @@ h1{
   /* padding-left: 200px;
   padding-top: 20px; */
 }
-.map {
+.map-hero h1{
+  margin-left: 40px;
+}
+/* .map {
   
   background-image: url("./assets/Screenshot\ 2024-08-23\ 010209.png");
   width: 1700px;
   height: 500px;
   
-}
-.map h1{
+} */
+/* .map h1{
   padding-left: 200px;
   padding-top: 100px;
-}
+} */
+
+
 #googleMap{
-  background-image: url(map1.png);
-  width:1390px;height:360px;
+  background-image: url(/images/map1.png);
+  width:1800px;
+  height:360px;
+  margin-left: 40px;
 } 
 
 
