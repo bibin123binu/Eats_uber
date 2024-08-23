@@ -146,9 +146,10 @@ h1{
   padding-left: 200px;
   padding-top: 100px;
 }
-/* #googleMap{
-  width: 900px;
-} */
+#googleMap{
+  background-image: url(map1.png);
+  width:1390px;height:360px;
+} 
 
 
 
